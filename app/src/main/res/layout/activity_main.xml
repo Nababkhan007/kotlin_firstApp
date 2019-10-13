@@ -13,32 +13,27 @@
         android:orientation="vertical"
         android:layout_centerInParent="true">
 
-        <EditText
-            android:id="@+id/mailEtId"
+        <TextView
+            android:id="@+id/emailTvId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter your mail">
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="email"
+            android:textSize="30sp">
 
-        </EditText>
+        </TextView>
 
-        <EditText
-            android:id="@+id/passwordEtId"
+        <TextView
+            android:id="@+id/passwordTvId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:hint="Enter your password">
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="password"
+            android:textSize="30sp">
 
-        </EditText>
-
-        <Button
-            android:id="@+id/loginBtnId"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center"
-            android:text="Login">
-
-        </Button>
+        </TextView>
 
     </LinearLayout>
 
